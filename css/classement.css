@@ -1,0 +1,45 @@
+/* --------------------- section plustitres ---------------- */
+.plustitres{padding: 6rem 0 6rem 0;}
+
+/* --------------------- div championnat ---------------- */
+.championnat h3{
+  margin-bottom: 10px;
+}
+
+.championnat h4{
+  color: white;
+  margin-bottom: 30px;
+}
+
+/*-------------------------- ul li a ---------------------*/
+.tabs a{
+  box-shadow: 0 0 2px rgba(1,0,8,0.5);
+}
+
+/*-------------------------- table ---------------------*/
+table{
+  background-color: white;
+  width: 90%;
+}
+
+td{
+  padding: 15px 0 15px 1rem;
+}
+
+tr:nth-child(even){background-color: #d5d6d0;}
+
+/*la largeur inferieur à 50rem*/
+@media screen and (max-width:50rem)
+{
+  .plustitres .wrapper{
+    padding-left: 2rem;
+  }
+  .plustitres h3{font-size: 20px;}
+  
+  .plustitres table td{
+      padding: 7px 0.6rem 7px 0.6rem;
+      font-size: 11px;
+      text-align: center;
+  }
+  table img{width: 45px; height:28;}
+}

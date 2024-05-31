@@ -1,0 +1,94 @@
+/************************************************calendrier.HTML*************************************************/
+/* bare de navigation fixe */
+header{
+  position: fixed;
+  z-index: 2;
+}
+
+/*la section calendrier*/
+#calendrier{
+  width:100%;
+  min-height: 15rem;
+  padding: 6rem 0 6rem 0;
+  background-image: url("../images/Ren.png"), linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.6));
+  background-blend-mode: overlay;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.wrapper {
+  max-width: 1200px;
+}
+
+/*mise en pages des tables*/
+.calendrier2023{
+  display:grid;
+  grid-template-columns:repeat(3,30%);
+  grid-template-rows: repeat(2,auto);
+  column-gap: 20px;
+}      
+
+.calendrier2023 h3{
+  grid-row: 1/2;
+  grid-column: 1/3;
+  margin-bottom: 30px;
+  color: white;
+  font-size: 28px;
+  font-family: 'Prosto One', cursive;
+}
+
+/*les tables calendriers*/
+#calendrier table{
+  background-color: white;
+  vertical-align: super;
+}
+
+#try{text-align: center;}
+
+#calendrier table:first-of-type{
+  grid-row: 2/3;
+  grid-column: 1/3;
+}
+
+#calendrier table td{
+  padding: 15px 0 15px 1rem;
+}
+
+#calendrier table td:first-of-type{
+  font-size: 14px;
+  color: darkred;
+}
+
+#calendrier table:last-of-type{
+  grid-row: 2/3;
+  grid-column: 3/4;
+}
+
+td div{font-size:15px;}
+tr:nth-child(even){background-color: #d5d6d0;}
+
+/*le contenu de l'image (texte+trait) quand la fenetre est vraiment reduite */
+/*la largeur inferieur à 700px (petite tablette et grand telephone)*/
+@media screen and (max-width:700px)
+{
+  .calendrier2023 h3{font-size: 25px;}
+
+  #calendrier table td{
+    padding: 7px;
+    font-size: 12px;
+    text-align: center;
+  }
+
+  #calendrier table td:first-of-type{
+    font-size: 13px;
+    color: darkred;
+  }
+
+  #calendrier table:last-of-type{
+    grid-row: 2/3;
+    grid-column: 3/4;
+  }
+
+  td div{font-size:11px;}
+  table img{width: 45px; height:28;}
+}
