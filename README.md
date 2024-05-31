@@ -1,9 +1,6 @@
 # projet-web-complet-master-1-_IL
-Ce projet est développé en 2022/2023 par les étudiants de master 1 IL:
-AGGAD Mohamed Wassim  groupe 1    matricule 191931050516
-Ouksel Lyna Celia     groupe 3    matricule 191931063624 
-Aid Lydia             groupe 3    matricule 191931012425
-Yahiaoui Mellissa     groupe 3    matricule 191931083386
+Ce projet est développé en 2022/2023 :
+
 
 Le site s'appelle F1 Univers et concerne le sport de la formule 1. C'est un site statique composé de fichiers html, css, javascript et xml ainsi que des images. 
 Celui-ci est constitué d'une page d'accueil qui permet d'afficher les résultats des courses qui ont eu lieu,
