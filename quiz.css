@@ -1,0 +1,181 @@
+body{
+    background-image: url("../images/s2Aoni8n.jpg"), linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3));
+    background-attachment: fixed;
+    background-blend-mode: overlay;
+    background-size: cover;
+}
+
+main{
+    display: grid;
+    place-items: center;
+    align-content: center;
+}
+
+h1{
+    font-weight: normal; 
+}
+
+hr{
+    border-top: 1px solid #38444d;
+    border-bottom: none;
+    margin: 20px 0;
+}
+
+/* styles des boutons */
+button{
+    font-size: 15px;
+    color: white;
+    cursor: pointer;
+    border-radius: 8px;
+    background-color: #639e4b;
+    border: none;
+}
+
+button:hover{
+    background-color: white;
+    background-color: #78b65f;
+}
+
+/* ------------------------------ quiz intro------------------------ */
+#quiz-intro, #quiz-container{
+    background-color: white;
+    color: black;
+    box-shadow: 0 0 6px 2px;
+}
+
+#quiz-intro{
+    text-align: center;
+    margin: 23.4vh 0;
+    padding: 2rem;
+    width: 45vw;
+}
+
+p{text-align: center;}
+
+#start-btn, #next-btn, #finish-btn, #restart-btn{
+    padding: 1rem 2rem;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 1rem;
+}
+
+/* ---------------------------- quiz container --------------------- */
+#quiz-container{
+    margin: 17.7vh 0;
+    width: 55vw;
+    padding: 0 0 1.5rem 0;
+}
+
+.quiz-header, .quiz-footer, .quiz-content{
+    padding: 0.5rem 2rem;
+}
+
+.quiz-header{
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+}
+
+.quiz-header{
+    border-bottom: 1px solid #78b65f;
+}
+
+.quiz-footer{
+    text-align: center;
+}
+
+.quiz-content h4{
+    margin: 1rem 0;
+    text-align: center;
+}
+
+/* pour la div qui contient les reponses proposées */
+.answers-container{
+    margin-top: 20px;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.answer-btn{
+    padding: 15px;
+    width:65%;
+    font-size: 1em;
+    text-transform: capitalize;
+    background-color: #bad0c9;
+    border: none;
+    color:black;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background 0.05  font-weight 0.05;
+}
+
+.answer-btn:hover{
+    background-color: #9ab5ac;
+    font-weight:bold;
+}
+
+/* ---------------------------- quiz result --------------------- */
+#quiz-result{
+    background-color: white;
+    width: 35rem;
+    color: black;
+    margin: 31vh 0;
+    text-align: center;
+    padding: 3rem 2rem;
+    box-shadow: 0 0 6px 2px;
+}
+
+#quiz-result p{
+    text-align: center;
+    margin-top: 10px;
+}
+
+#restart-btn{
+    margin-top: 1rem;
+}
+
+/*------------------- classes supplémentaires qui servent à montrer les bonnes et mauvaises réponses-------------------- */
+.hide{
+    display: none;
+}
+
+.correct{
+    background-color: #78b65f;
+}
+
+.wrong{
+    background-color: red;
+}
+
+
+/***************** fenetre réduite ****************/
+@media screen and (max-width:70rem){
+    h1{
+        font-size: 23px; 
+        font-weight: bold;
+    }
+    .quiz-header h1{margin-bottom: 0.8rem;}
+    /* pour les differentes parties du quiz */
+    #quiz-intro{
+        width: 70vw;
+    }
+    #quiz-container{
+        width: 70vw;
+    }
+    #quiz-result{
+        width: 60vw;
+    }
+    
+}
+/* pour le header de la div qui contient les questions */
+@media screen and (max-width:40rem){
+    .quiz-header{
+        display: block;
+        text-align: center;
+        margin: 0;
+    }
+}

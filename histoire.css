@@ -1,0 +1,124 @@
+/***********************************************************histoire.HTML******************************************************************/
+/* bare de navigation fixe */
+header{
+    position: fixed;
+    z-index: 2;
+}
+
+#intro, #origines, #autourDeLaCourse{
+    width: 87%;
+    margin-left: 6%;
+}
+
+h1{
+    margin-top: 2rem;
+    font-size: 30px;
+    margin-bottom: 1rem;
+    font-weight: bold; 
+}
+
+#debuts h3, h4{color: rgb(142, 115, 45);}
+
+hr{
+    margin-top: 0.2rem;
+    border-top: none;
+    border-top: none;
+    border-bottom: 1px dotted;
+    margin-bottom: 5px;
+}
+
+main{
+    flex-direction: column ;
+}
+
+/* --------------------- intro ------------------ */
+#intro{
+    padding: 4rem 1rem 0 1rem;
+}
+
+#intro h1{
+    font-size: 40px;
+    font-weight: bolder;
+    color: inherit;
+}
+
+#intro img{
+    width: 100%;
+    margin-bottom: 5px;
+}
+
+/* ----------------- origines de F1 ------------- */
+#origines{
+    padding: 0 1rem 0 1rem;
+}
+
+/* ----------------- content ------------- */
+#debuts img{
+    float: right;
+    width: 220px;
+    height: 7rem;
+    margin-left: 1rem;
+    margin-top: -10px;
+}
+
+/* --------------- autourDeLaCourse ------------ */
+#autourDeLaCourse{
+    padding: 0 1rem 2rem 1rem;
+}
+
+.img-pos-right, .img-pos-left{
+    width: 16rem;
+    height: 10rem;
+}
+
+/* images positionnées à gauche */
+.img-pos-left{
+    float: left;
+    margin-right: 1rem;
+    margin-top: 6px;
+}
+
+/* images positionnées à droite */
+.img-pos-right{
+    float: right;
+    margin-left: 1rem;
+    margin-top: 6px;
+}
+
+/* images centrées */
+.img-pos-center{
+    width: 100%;
+}
+
+#autourDeLaCourse ul{
+    padding: 0 0 1rem 3rem;
+}
+
+#autourDeLaCourse li{
+    list-style-type: disc;
+    margin-bottom: 3px;
+}
+
+
+/*la largeur inferieur à 580px (petite tablette et grand telephone)*/
+@media screen and (max-width:50rem){
+    #intro{
+        padding: 4rem 0.5rem 0 0.5rem;
+    }
+
+    h1{font-size: 23px;}
+
+    #intro h1{
+        font-size: 30px;
+    }
+
+    #origines, #autourDeLaCourse{
+        padding: 0 0.5rem 2rem 0.5rem;
+    }
+
+    #debuts img, .img-pos-left, .img-pos-right{
+        display: block;
+        width: 100%;
+        margin: 0;
+    }
+}
