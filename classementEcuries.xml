@@ -1,0 +1,83 @@
+<formule>
+
+<ecurie>
+<rang>1</rang>
+<drapeau>AUTRICHE</drapeau>
+<equipe>RED BULL RACING RBPT</equipe>
+<moteur>HRC</moteur>
+<points>759</points>
+</ecurie>
+
+<ecurie>
+<rang>2</rang>
+<drapeau>ITALIE</drapeau>
+<equipe>FERRARI</equipe>
+<moteur>Ferrari</moteur>
+<points>554</points>
+</ecurie>
+
+<ecurie>
+<rang>3</rang>
+<drapeau>ALLEMAGNE</drapeau>
+<equipe>MERCEDES</equipe>
+<moteur>Mercedes</moteur>
+<points>515</points>
+</ecurie>
+
+<ecurie>
+<rang>4</rang>
+<drapeau>FRANCE</drapeau>
+<equipe>ALPINE RENAULT</equipe>
+<moteur>Renault</moteur>
+<points>173</points>
+</ecurie>
+
+<ecurie>
+<rang>5</rang>
+<drapeau>ANGLETERRE</drapeau>
+<equipe>MCLAREN MERCEDES</equipe>
+<moteur>Mercedes</moteur>
+<points>159</points>
+</ecurie>
+
+<ecurie>
+<rang>6</rang>
+<drapeau>ITALIE</drapeau>
+<equipe>ALFA ROMEO FERRARI</equipe>
+<moteur>Ferrari</moteur>
+<points>55</points>
+</ecurie>
+
+<ecurie>
+<rang>7</rang>
+<drapeau>ANGLETERRE</drapeau>
+<equipe>ASTON MARTIN ARAMCO MERCEDES</equipe>
+<moteur>Mercedes</moteur>
+<points>55</points>
+</ecurie>
+
+<ecurie>
+<rang>8</rang>
+<drapeau>USA</drapeau>
+<equipe>HAAS FERRARI</equipe>
+<moteur>Ferrari</moteur>
+<points>37</points>
+</ecurie>
+
+<ecurie>
+<rang>9</rang>
+<drapeau>ITALIE</drapeau>
+<equipe>ALPHATAURI RBPT</equipe>
+<moteur>HRC</moteur>
+<points>35</points>
+</ecurie>
+
+<ecurie>
+<rang>10</rang>
+<drapeau>ANGLETERRE</drapeau>
+<equipe>WILLIAMS MERCEDES</equipe>
+<moteur>Mercedes</moteur>
+<points>8</points>
+</ecurie>
+
+</formule>

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>F1 Univers: Le calendrier 2023</title>
+        <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&amp;display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@900&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Poppins&family=Prosto+One&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="css/calendrier.css">
+
+        <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+        <link rel="icon" type="image/png" sizes="16x16" href="images/33995_car_formula 1_racing_seate.png">
+        <script src="js/calendrier.js"></script>
+    </head>
+    
+    <body onload="loadDoc()">
+      <!--- Menu de navigation -->
+      <header>
+        <!-- logo -->
+        <div id="logo">
+          <a href="index.html">
+            <img src="images/F1.svg.png" alt="formule1">
+            <i><h3>F1 Univers</h3></i>
+          </a>
+        </div>
+        <!-- bouton pour une navigation bar responsive-->
+        <input type="checkbox" class='navbouton' id='navbouton'>
+        <!-- la bar de navigation contenant les liens des pages -->
+        <nav>
+          <ul>
+            <li> <a href="index.html"><i class='bx bxs-home'></i>Accueil </a> </li>
+            <li> <a href="histoire.html"><i class='bx bxs-book'></i>Histoire </a> </li>
+            <li> <a href="plustitres.html"><i class='bx bxs-medal' ></i>Plus titrés </a> </li>
+            <li> <a href="classement.html"><i class='bx bxs-trophy'></i>Classement </a></li>
+            <li> <a class="active" href="calendrier.html"><i class='bx bxs-calendar'></i>Calendrier </a></li>
+            <li> <a href="quiz.html"><i class='bx bx-question-mark' ></i>Quiz </a></li>
+            <li> <a href="apropos.html">A propos </a> </li>
+          </ul>
+        </nav>
+        <label for="navbouton" class="navbouton-label">
+          <span> </span>  
+        </label>
+      </header>
+        <!--Contenu principale-->
+       <main>
+          <section id="calendrier">
+            <div class="wrapper"> 
+                  <div class="calendrier2023">
+                    <h3>Calendrier de la saison 2023</h3>
+                      <!-- table contenant les prochaines courses qui arrivent en 2023-->
+                      <table cellspacing="0" cellpadding="0" id="demo"></table>
+
+                      <!-- table contenant le temps restant pour chacune des compétitions -->
+                      <table id="try"></table>
+                  </div>
+            </div>
+          </section>
+        </main>
+     
+     <!-- Pied de page-->
+     <footer>
+      <div id="copyrightEtIcons">
+        <div id="copyright"><p>© 2023 F1 Univers, By IL students. Tous droits réservés.</p></div>
+        <div id="icons">
+            <a href="http://www.facebook.com" target="_blank"> <i class='bx bxl-facebook'></i> </a>
+            <a href="http://www.instagram.com" target="_blank"> <i class='bx bxl-instagram'></i> </a>
+            <a href="http://www.twitter.com" target="_blank"> <i class='bx bxl-twitter' ></i> </a>
+        </div>
+      </div>
+    </footer>
+    </body>
+</html>

@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Formule 1</title>
+        <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&amp;display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@900&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Poppins&family=Prosto+One&display=swap" rel="stylesheet">
+        <link href="https://blogfonts.com/css/aWQ9MTUxNTEzJnN1Yj01MTMmYz1mJnR0Zj1Gb3JtdWxhMS1XaWRlX3dlYl8wLnR0ZiZuPWZvcm11bGExLWRpc3BsYXktd2lkZS0z/Formula1 Display Wide.ttf" rel="stylesheet" type="text/css"/>
+        <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="css/apropos.css">
+        <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+
+<body>
+  <!--- Menu de navigation -->
+  <header>
+    <!-- logo -->
+    <div id="logo">
+      <a href="index.html">
+        <img src="images/F1.svg.png" alt="formule1">
+        <i><h3>F1 Univers</h3></i>
+      </a>
+    </div>
+    <!-- bouton pour une navigation bar responsive-->
+    <input type="checkbox" class='navbouton' id='navbouton'>
+    <!-- la bar de navigation contenant les liens des pages -->
+    <nav>
+      <!-- le lien de la page actuelle est soulignée dans la nav bar-->
+      <ul>  
+        <li> <a href="index.html"><i class='bx bxs-home'></i>Accueil </a> </li>
+        <li> <a href="histoire.html"><i class='bx bxs-book'></i>Histoire </a> </li>
+        <li> <a href="plustitres.html"><i class='bx bxs-medal' ></i>Plus titrés </a> </li>
+        <li> <a href="classement.html"><i class='bx bxs-trophy'></i>Classement </a></li>
+        <li> <a href="calendrier.html"><i class='bx bxs-calendar'></i>Calendrier </a></li>
+        <li> <a href="quiz.html"><i class='bx bx-question-mark' ></i>Quiz </a></li>
+        <li> <a class="active" href="apropos.html">A propos </a> </li>
+      </ul>
+    </nav>
+    <label for="navbouton" class="navbouton-label">
+      <span> </span>  
+    </label>
+  </header>
+
+  <!-- le contenu de la page -->
+  <main>
+    <div id="container">
+      <span id="salute">BIENVENUE CHEZ <span>F1 UNIVERS</span></span>
+    </div>
+    <div id="apropos">
+        <div class="presentation">
+          <!-- mini présentation sur le site -->
+          <span>A PROPOS DE NOUS</span>
+          <p> <strong>F1 Univers</strong> est dédié au sport de la Formule 1, ayant pour objectif de permettre à tous ceux qui le désirent d'en apprendre davantage sur cette discipline en particulier et à son histoire.</p>
+          <p> Vous ne savez pas quel est le top 3 des pilotes de la F1 ? Ou encore, qui est ce qui a remporté le Grand Prix de la F1 cette année ? 
+            C'est le moment d'y remédier pour en savoir plus! </p>
+          <p>Bien plus que cela, F1 Univers propose pour les plus joueurs d'entre vous un quiz. Tester votre culture sportive et voyez si pour vous aussi, ce sport n'a plus aucun secret.</p>
+        </div>
+
+        <div id="contact">
+            <span>Envie De Nous Contacter?</span>
+            <p class="consigne">Envoyez nous un e-mail directement vers <strong>F1Univers2023@gmail.com</strong> ou remplissez le formulaire ci-dessous et nous vous contacterons au plus vite.</p>
+            
+            <!-- message qui sera envoyé à la boite mail A&LFWOODS@gmail.com -->
+            <form id="myform" class="mailing-form" action="mailto:A&LFWOODS@gmail.com" method="post" enctype="text/plain">
+              <label class="text" for="Nom">Nom 
+                <p class="obligatoire">*</p>
+              </label>
+              <input type="text" placeholder="Entrez votre nom au complet" id="name">
+              <span id="name-error"></span>
+      
+              <label class="text" for="email">Email
+                <p class="obligatoire">*</p>
+              </label>
+              <input type="email" placeholder="Entrez votre adresse email"  id="email">
+              <span id="email-error"></span>
+      
+              <label for="SujetDuProjet">Commantaire ou message
+                <p class="obligatoire">*</p>
+              </label>
+              <textarea rows="10" cols="76" placeholder="Veuillez taper votre message" id="message"></textarea>
+              <span id="message-error"></span>
+      
+              <label class="label-check" required> <input type="checkbox" id="agree" value="check"> En soumettant ce formulaire, j'accepte que les informations saisies soient conservées pour permettre de me recontacter
+                ou pour de l'information commerciales.
+                <p class="obligatoire">*</p>
+              </label><br>
+              
+              <button class="button" type="submit" onclick="return validateForm()">ENVOYER</button>
+              <span id="submit-error"></span>
+            </form>
+            <script src="js/contact.js"></script>    
+        </div>
+    </div>
+  </main>
+ 
+  <!-- Pied de page-->
+  <footer>
+    <div id="copyrightEtIcons">
+      <div id="copyright"><p>© 2023 F1 Univers, By IL students. Tous droits réservés.</p></div>
+      <div id="icons">
+          <a href="http://www.facebook.com" target="_blank"> <i class='bx bxl-facebook'></i> </a>
+          <a href="http://www.instagram.com" target="_blank"> <i class='bx bxl-instagram'></i> </a>
+          <a href="http://www.twitter.com" target="_blank"> <i class='bx bxl-twitter' ></i> </a>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>

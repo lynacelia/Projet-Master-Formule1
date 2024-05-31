@@ -1,0 +1,201 @@
+<formule>
+
+<resultat>
+<grandPrix>Bahrein</grandPrix>
+<date>20 Mars 2022</date>
+<gagnant>Charles Leclerc</gagnant>
+<voiture>FERRARI</voiture>
+<tours>57</tours>
+<temps>1:37:33.584</temps>
+</resultat>
+
+<resultat>
+<grandPrix>Arabie Saoudite</grandPrix>
+<date>27 Mars 2022</date>
+<gagnant>Max Verstappen</gagnant>
+<voiture>RED BULL RACING REPT</voiture>
+<tours>50</tours>
+<temps>1:24:19.293</temps>
+</resultat>
+
+<resultat>
+<grandPrix>Australie</grandPrix>
+<date>10 Avril 2022</date>
+<gagnant>Charles Lecrec</gagnant>
+<voiture>FERRARI</voiture>
+<tours>58</tours>
+<temps>1:27:46.548</temps>
+</resultat>
+
+<resultat>
+<grandPrix>Emilie-Romagne</grandPrix>
+<date>24 Avril 2022</date>
+<gagnant>Max Verstappen</gagnant>
+<voiture>RED BULL RACING RBPT</voiture>
+<tours>63</tours>
+<temps>1:32:07.986</temps>
+</resultat>
+
+<resultat>
+<grandPrix>Miami</grandPrix>
+<date>08 Mai 2022</date>
+<gagnant>Max Verstappen</gagnant>
+<voiture>RED BULL RACING RBPT</voiture>
+<tours>57</tours>
+<temps>1:34:24.258</temps>
+</resultat>
+
+<resultat>
+<grandPrix>Espagne</grandPrix>
+<date>22 May 2022</date>
+<gagnant>Sergio Perez</gagnant>
+<voiture>RED BULL RACING RBPT</voiture>
+<tours>66</tours>
+<temps>1:37:20.475</temps>
+</resultat>
+
+<resultat>
+<grandPrix>Monaco</grandPrix>
+<date>29 Mai 2022</date>
+<gagnant>Sergio Perez</gagnant>
+<voiture>RED BULL RACING RBPT</voiture>
+<tours>64</tours>
+<temps>1:56:30.265</temps>
+</resultat>
+
+<resultat>
+<grandPrix>Azerbaijan</grandPrix>
+<date>12 Juin 2022</date>
+<gagnant>Max Verstappen</gagnant>
+<voiture>RED BULL RACING RBPT</voiture>
+<tours>51</tours>
+<temps>1:34:05.941</temps>
+</resultat>
+
+<resultat>
+<grandPrix>Canada</grandPrix>
+<date>19 juin 2022</date>
+<gagnant>Max Verstappen</gagnant>
+<voiture>RED BULL RACING RBPT</voiture>
+<tours>70</tours>
+<temps>1:36:21.757</temps>
+</resultat>
+
+<resultat>
+<grandPrix>Grande-Bretagne</grandPrix>
+<date>3 Juillet 2022</date>
+<gagnant>Carlos Sainz</gagnant>
+<voiture>FERRARI</voiture>
+<tours>52</tours>
+<temps>2:17:50.311</temps>
+</resultat>
+
+<resultat>
+<grandPrix>Autriche</grandPrix>
+<date>10 Juillet 2022</date>
+<gagnant>Charles Leclerc</gagnant>
+<voiture>FERRARI</voiture>
+<tours>71</tours>
+<temps>1:24:24.312</temps>
+</resultat>
+
+<resultat>
+<grandPrix>France</grandPrix>
+<date>24 Juillet 2022</date>
+<gagnant>Max Verstappen</gagnant>
+<voiture>RED BULL RACING RBPT</voiture>
+<tours>53</tours>
+<temps>1:30:02.112</temps>
+</resultat>
+
+<resultat>
+<grandPrix>Hongrie</grandPrix>
+<date>31 Juillet 2022</date>
+<gagnant>Max Verstappen</gagnant>
+<voiture>RED BULL RACING RBPT</voiture>
+<tours>70</tours>
+<temps>1:39:35.912</temps>
+</resultat>
+
+<resultat>
+<grandPrix>Belgique</grandPrix>
+<date>28 Aout 2022</date>
+<gagnant>Max Verstappen</gagnant>
+<voiture>RED BULL RACING RBPT</voiture>
+<tours>44</tours>
+<temps>1:25:52.894</temps>
+</resultat>
+
+<resultat>
+<grandPrix>Pays-Bas</grandPrix>
+<date>04 Septembre 2022</date>
+<gagnant>Max Verstappen</gagnant>
+<voiture>RED BULL RACING RBPT</voiture>
+<tours>72</tours>
+<temps>1:36:42.773</temps>
+</resultat>
+
+<resultat>
+<grandPrix>Italie</grandPrix>
+<date>11 Septembre 2022</date>
+<gagnant>Max Verstappen</gagnant>
+<voiture>RED BULL RACING RBPT</voiture>
+<tours>53</tours>
+<temps>1:20:27.511</temps>
+</resultat>
+
+<resultat>
+<grandPrix>Singapour</grandPrix>
+<date>02 Octobre 2022</date>
+<gagnant>Sergio Perez</gagnant>
+<voiture>RED BULL RACING RBPT</voiture>
+<tours>59</tours>
+<temps>2:02:20.238</temps>
+</resultat>
+
+<resultat>
+<grandPrix>Japon</grandPrix>
+<date>09 Octobre 2022</date>
+<gagnant>Max Verstappen</gagnant>
+<voiture>RED BULL RACING RBPT</voiture>
+<tours>28</tours>
+<temps>3:01:44.004</temps>
+</resultat>
+
+<resultat>
+<grandPrix>Etats-Unis</grandPrix>
+<date>23 Octobre 2022</date>
+<gagnant>Max Verstappen</gagnant>
+<voiture>RED BULL RACING RBPT</voiture>
+<tours>28</tours>
+<temps>1:42:11.687</temps>
+</resultat>
+
+<resultat>
+<grandPrix>Mexique</grandPrix>
+<date>30 Octobre 2022</date>
+<gagnant>Max Verstappen</gagnant>
+<voiture>Red BULL RACING RBPT</voiture>
+<tours>71</tours>
+<temps>1:38:36.729</temps>
+</resultat>
+
+<resultat>
+<grandPrix>Brésil</grandPrix>
+<date>13 Novembre 2022</date>
+<gagnant>George Russell</gagnant>
+<voiture>MERCEDES</voiture>
+<tours>71</tours>
+<temps>1:38:34.044</temps>
+</resultat>
+
+<resultat>
+<grandPrix>Abou Dabi</grandPrix>
+<date>20 Novembre 2022</date>
+<gagnant>Max Verstappen</gagnant>
+<voiture>RED BULL RACING RBPT</voiture>
+<tours>71</tours>
+<temps>1:27:45.914</temps>
+</resultat>
+
+</formule>

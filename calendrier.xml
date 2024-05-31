@@ -1,0 +1,64 @@
+<formule>
+
+<course>
+<date>FEB 25, 2023</date>
+<drapeau>BAHREIN</drapeau>
+<lieu>ESSAIS DU BAHREIN</lieu>
+</course>
+
+<course>
+<date>MARCH 05, 2023</date>
+<drapeau>BAHREIN</drapeau>
+<lieu>GP DU BAHREIN</lieu>
+</course>
+
+<course>
+<date>MARCH 19, 2023</date>
+<drapeau>ARABIE-SAOUDITE</drapeau>
+<lieu>GP D'ARABIE SAOUDITE</lieu>
+</course>
+
+<course>
+<date>MAY 07, 2023</date>
+<drapeau>USA</drapeau>
+<lieu>GP DE MIAMI</lieu>
+</course>
+
+<course>
+<date>MAY 21, 2023</date>
+<drapeau>ITALIE</drapeau>
+<lieu>GP D'EMILIE-ROMAGNE</lieu>
+</course>
+
+<course>
+<date>JUNE 04, 2023</date>
+<drapeau>ESPAGNE</drapeau>
+<lieu>GP D'ESPAGNE</lieu>
+</course>
+
+<course>
+<date>JUNE 18, 2023</date>
+<drapeau>CANADA</drapeau>
+<lieu>GP DU CANADA</lieu>
+</course>
+
+<course>
+<date>JULY 30, 2023</date>
+<drapeau>BELGIQUE</drapeau>
+<lieu>GP DE BELGIQUE</lieu>
+</course>
+
+<course>
+<date>AUGUST 27, 2023</date>
+<drapeau>PAYS-BAS</drapeau>
+<lieu>GP DES PAYS-BAS</lieu>
+</course>
+
+<course>
+<date>SEPT 24, 2023</date>
+<drapeau>JAPON</drapeau>
+<lieu>GP DU JAPON</lieu>
+</course>
+
+
+</formule>

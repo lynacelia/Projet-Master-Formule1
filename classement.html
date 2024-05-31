@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Formule 1</title>
+        <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&amp;display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@900&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Poppins&family=Prosto+One&display=swap" rel="stylesheet">
+        <link href="https://blogfonts.com/css/aWQ9MTUxNTEzJnN1Yj01MTMmYz1mJnR0Zj1Gb3JtdWxhMS1XaWRlX3dlYl8wLnR0ZiZuPWZvcm11bGExLWRpc3BsYXktd2lkZS0z/Formula1 Display Wide.ttf" rel="stylesheet" type="text/css"/>
+        <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="css/classement.css">
+        <link rel="stylesheet" href="css/plustitres_classement.css">
+        <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+        <script src="js/classementPilotes.js"></script>
+        <script src="js/classementEcuries.js"></script>
+</head>
+
+<body onload="loadDoc()">
+  <!--- Menu de navigation -->
+  <header>
+    <!-- logo -->
+    <div id="logo">
+      <a href="index.html">
+        <img src="images/F1.svg.png" alt="formule1">
+        <i><h3>F1 Univers</h3></i>
+      </a>
+    </div>
+    <!-- bouton pour une navigation bar responsive-->
+    <input type="checkbox" class='navbouton' id='navbouton'>
+    <!-- la bar de navigation contenant les liens des pages -->
+    <nav>
+      <ul>
+        <li> <a href="index.html"><i class='bx bxs-home'></i>Accueil </a> </li>
+        <li> <a href="histoire.html"><i class='bx bxs-book'></i>Histoire </a> </li>
+        <li> <a href="plustitres.html"><i class='bx bxs-medal' ></i>Plus titrés </a> </li>
+        <li> <a class="active" href="classement.html"><i class='bx bxs-trophy'></i>Classement </a></li>
+        <li> <a href="calendrier.html"><i class='bx bxs-calendar'></i>Calendrier </a></li>
+        <li> <a href="quiz.html"><i class='bx bx-question-mark' ></i>Quiz </a></li>
+        <li> <a href="apropos.html">A propos </a> </li>
+      </ul>
+    </nav>
+    <label for="navbouton" class="navbouton-label">
+      <span> </span>  
+    </label>
+  </header>
+  
+  <!--Contenu principale-->
+  <main>
+    <section class="plustitres">
+      <div class="wrapper">                  
+        <div class="championnat">
+            <h3>Championnat du monde</h3>
+            <h4>CLASSEMENTS</h4>
+            <!-- classement des ecuries et des pilotes -->
+            <ul class="tabs">
+              <li class="active"><a href="#t1">Pilotes</a></li> <!--pour afficher la premiére table, celle des pilotes-->
+              <li><a onclick="loadDoc2()" href="#t2">constructeurs</a></li> <!--pour afficher la table 2, celle des ecuries-->
+            </ul>
+
+            <!-- table qui contients le classement des pilotes contenu dans le fichier classementPilotes.xml -->
+            <div class="tab-content active" id="t1">
+              <table cellspacing="0" cellpadding="0" id="demo1"></table>
+            </div>
+
+            <!-- table qui contients le classement des ecuries contenu dans le fichier classementEcuries.xml -->
+            <div class="tab-content" id="t2">
+              <table cellspacing="0" cellpadding="0" id="demo2"></table>
+            </div>
+        </div>
+      </div>
+    </section>
+  </main>
+ 
+  <!-- Pied de page-->
+  <footer>
+    <div id="copyrightEtIcons">
+      <div id="copyright"><p>© 2023 F1 Univers, By IL students. Tous droits réservés.</p></div>
+      <div id="icons">
+          <a href="http://www.facebook.com" target="_blank"> <i class='bx bxl-facebook'></i> </a>
+          <a href="http://www.instagram.com" target="_blank"> <i class='bx bxl-instagram'></i> </a>
+          <a href="http://www.twitter.com" target="_blank"> <i class='bx bxl-twitter' ></i> </a>
+      </div>
+    </div>
+  </footer>
+  <script src="js/script.js"></script>
+</body>
+
+</html>

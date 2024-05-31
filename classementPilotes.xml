@@ -1,0 +1,179 @@
+<formule>
+
+<pilote>
+<rang>1</rang>
+<drapeau>FRANCE</drapeau>
+<joueur>Max Verstappen</joueur>
+<equipe>RED BULL RACING RBPT</equipe>
+<points>454</points>
+</pilote>
+
+<pilote>
+<rang>2</rang>
+<drapeau>MONACO</drapeau>
+<joueur>Charles Leclerc</joueur>
+<equipe>FERRARI</equipe>
+<points>308</points>
+</pilote>
+
+<pilote>
+<rang>3</rang>
+<drapeau>MEXIQUE</drapeau>
+<joueur>Sergio Perez</joueur>
+<equipe>RED BULL RACING RBPT</equipe>
+<points>305</points>
+</pilote>
+
+<pilote>
+<rang>4</rang>
+<drapeau>ANGLETERRE</drapeau>
+<joueur>George Russell</joueur>
+<equipe>MERCEDES</equipe>
+<points>275</points>
+</pilote>
+
+<pilote>
+<rang>5</rang>
+<drapeau>ESPAGNE</drapeau>
+<joueur>Carlos Sainz</joueur>
+<equipe>FERRARI</equipe>
+<points>246</points>
+</pilote>
+
+<pilote>
+<rang>6</rang>
+<drapeau>ANGLETERRE</drapeau>
+<joueur>Lewis Hamilton</joueur>
+<equipe>MERCEDES</equipe>
+<points>240</points>
+</pilote>
+
+<pilote>
+<rang>7</rang>
+<drapeau>ANGLETERRE</drapeau>
+<joueur>Lando Norris</joueur>
+<equipe>MCLAREN MERCEDES</equipe>
+<points>122</points>
+</pilote>
+
+<pilote>
+<rang>8</rang>
+<drapeau>FRANCE</drapeau>
+<joueur>Esteban Ocon</joueur>
+<equipe>ALPINE RENAULT</equipe>
+<points>92</points>
+</pilote>
+
+<pilote>
+<rang>9</rang>
+<drapeau>ESPAGNE</drapeau>
+<joueur>Fernando Alonso</joueur>
+<equipe>ALPINE RENAULT</equipe>
+<points>81</points>
+</pilote>
+
+<pilote>
+<rang>10</rang>
+<drapeau>FINLANDE</drapeau>
+<joueur>Valtteri</joueur>
+<equipe>ALFA ROMEO FERRARI</equipe>
+<points>49</points>
+</pilote>
+
+<pilote>
+<rang>11</rang>
+<drapeau>AUSTRALIE</drapeau>
+<joueur>Daniel Ricciardo</joueur>
+<equipe>MCLAREN MERCEDES</equipe>
+<points>37</points>
+</pilote>
+
+<pilote>
+<rang>12</rang>
+<drapeau>ALLEMAGNE</drapeau>
+<joueur>Sebastian Vettel</joueur>
+<equipe>ASTON MARTIN ARAMCO MERCEDES</equipe>
+<points>37</points>
+</pilote>
+
+<pilote>
+<rang>13</rang>
+<drapeau>DANEMARK</drapeau>
+<joueur>Kevin Magnussen</joueur>
+<equipe>HAAS FERRARI</equipe>
+<points>25</points>
+</pilote>
+
+<pilote>
+<rang>14</rang>
+<drapeau>FRANCE</drapeau>
+<joueur>Pierre Gasly</joueur>
+<equipe>ALPHATAURI RBPT</equipe>
+<points>23</points>
+</pilote>
+
+<pilote>
+<rang>15</rang>
+<drapeau>CANADA</drapeau>
+<joueur>Lance Stroll</joueur>
+<equipe>ASTON MARTIN ARAMCO MERCEDES</equipe>
+<points>18</points>
+</pilote>
+
+<pilote>
+<rang>16</rang>
+<drapeau>JAPON</drapeau>
+<joueur>Yuki Tsunoda</joueur>
+<equipe>HAAS FERRARI</equipe>
+<points>12</points>
+</pilote>
+
+<pilote>
+<rang>17</rang>
+<drapeau>ALLEMAGNE</drapeau>
+<joueur>Mick Schumacher</joueur>
+<equipe>ALPHATAURI RBPT</equipe>
+<points>12</points>
+</pilote>
+
+<pilote>
+<rang>18</rang>
+<drapeau>CHINE</drapeau>
+<joueur>Zhou Guanyu</joueur>
+<equipe>ALFA ROMEO FERRARI</equipe>
+<points>7</points>
+</pilote>
+
+<pilote>
+<rang>19</rang>
+<drapeau>THAILANDE</drapeau>
+<joueur>Alexander Albon</joueur>
+<equipe>WILLIAMS MERCEDES</equipe>
+<points>4</points>
+</pilote>
+
+<pilote>
+<rang>20</rang>
+<drapeau>THAILANDE</drapeau>
+<joueur>Nyck De Vries</joueur>
+<equipe>WILLIAMS MERCEDES</equipe>
+<points>2</points>
+</pilote>
+
+<pilote>
+<rang>21</rang>
+<drapeau>CANADA</drapeau>
+<joueur>Nicholas Latifi</joueur>
+<equipe>WILLIAMS MERCEDES</equipe>
+<points>2</points>
+</pilote>
+
+<pilote>
+<rang>22</rang>
+<drapeau>ALLEMAGNE</drapeau>
+<joueur>Nico Hulkenberg</joueur>
+<equipe>ASTON MARTIN ARAMCO MERCEDES</equipe>
+<points>0</points>
+</pilote>
+
+</formule>
